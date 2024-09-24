@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Store</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="gd16.css"> 
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Fake Store</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="displayProductsByCategory('all')">All</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="displayProductsByCategory('jewelery')">Jewelry</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="displayProductsByCategory('electronics')">Electronics</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="displayProductsByCategory('men\'s clothing')">Men's Clothing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="displayProductsByCategory('women\'s clothing')">Women's Clothing</a>
+                </li>
+                
+            </ul>
+            <div class="ml-auto">
+                <input type="text" id="search-bar" placeholder="Search for products..." class="form-control d-inline-block" style="width:250px">
+                <button class="btn btn-primary ml-2" onclick="searchProducts()">Search</button>
+                <button class="btn btn-secondary ml-2" data-toggle="modal" data-target="#cartModal">Cart (<span id="cart-count">0</span>)</button>
+            </div>
+        </div>
+        </nav>
+    <div class="container">
+        <header class="my-4">
+            <h1>Welcome</h1>
+        </header>
+        <div id="product-list" class="row">
+        </div>
+    </div>
+    <div class="modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="cartModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="cartModalLabel">Your Cart</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="cart-items" class="list-group">
+                        
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="gd16.js"></script> 
+</body>
+</html>
+

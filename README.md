@@ -31,9 +31,26 @@ Close the cart sidebar by clicking the "Close Cart" button.
 
 Screenshots of the output
 ![Screenshot 2024-09-25 050304](https://github.com/user-attachments/assets/3b6b4385-ebed-496d-9568-663e4932544b)
+
+
+
+
 ![Screenshot 2024-09-25 050134](https://github.com/user-attachments/assets/ad54f1ab-425b-4440-8683-023f00332b80)
+
+
+
+
 ![Screenshot 2024-09-25 050158](https://github.com/user-attachments/assets/7d03130d-41f4-4312-bfe0-c8d5e1fdc82c)
+
+
+
+
+
 ![Screenshot 2024-09-25 050212](https://github.com/user-attachments/assets/b9cbec6a-b683-4488-867f-0bba0ea3d2cd)
+
+
+
+
 ![Screenshot 2024-09-25 051343](https://github.com/user-attachments/assets/444d82ca-9b6a-41e0-b515-a1e078b2541a)
 
 Screenshots
